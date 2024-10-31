@@ -1,0 +1,13 @@
+services: 
+  mysql: 
+    container_name: atividadeSo
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: urubu100
+      MYSQL_DATABASE: aulaSO
+    volumes: 
+    - mysql_data:/var/lib/myqsl
+    - ./init-scripts:docker-entrypoint-initdb.d
+    ports:
+      "3306:3306" 
