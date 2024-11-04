@@ -1,0 +1,19 @@
+services: 
+  mysql: 
+    container_name: ContainerBD
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: urubu100
+      MYSQL_DATABASE: aulaSO
+    volumes: 
+    - ./init-scripts:docker-entrypoint-init.sql
+    ports:
+      "3307:3306" 
+
+  site:
+    container_name: VortexInstitucional
+    image: NOME DA IMAGEM
+    restart: always 
+    ports:
+      "3333:3333"
