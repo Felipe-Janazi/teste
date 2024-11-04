@@ -13,7 +13,7 @@ services:
 
   site:
     container_name: VortexInstitucional
-    image: NOME DA IMAGEM
+    image: janazi1/vortex-institucional:v1
     restart: always 
     ports:
       "3333:3333"
