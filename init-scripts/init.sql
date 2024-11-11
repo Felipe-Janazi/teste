@@ -1,4 +1,4 @@
-CREATE DATABASE VORTEX;
+CREATE DATABASE vortex;
 
 USE vortex;
 
