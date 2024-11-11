@@ -1,3 +1,5 @@
+CREATE DATABASE VORTEX;
+
 USE vortex;
 
 CREATE TABLE Empresa (
