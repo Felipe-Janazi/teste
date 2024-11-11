@@ -1,7 +1,3 @@
-CREATE DATABASE vortex2;
-USE vortex2;
-
-
 CREATE TABLE Empresa (
     idEmpresa INT PRIMARY KEY,
     nome VARCHAR(45),
