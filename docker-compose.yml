@@ -7,7 +7,7 @@ services:
       MYSQL_ROOT_PASSWORD: vortex
       MYSQL_DATABASE: vortex
     volumes: 
-      - ./init-scripts:docker-entrypoint-init.sql
+      - /home/ubuntu/teste/init-scripts:/docker-entrypoint-init.sql
     ports:
       - "3307:3306" 
 
