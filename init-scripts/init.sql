@@ -1,3 +1,5 @@
+USE vortex;
+
 CREATE TABLE Empresa (
     idEmpresa INT PRIMARY KEY,
     nome VARCHAR(45),
