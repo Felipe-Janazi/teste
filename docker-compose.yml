@@ -5,7 +5,6 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: vortex
-      MYSQL_DATABASE: vortex
     volumes: 
       - /home/ubuntu/teste/init-scripts:/docker-entrypoint-init.sql
     ports:
